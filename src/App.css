@@ -1,0 +1,63 @@
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    margin: 0px 10px;
+    width: 200px;
+    height: 250px;
+}
+
+button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: inherit;
+}
+
+.product-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first {
+    margin: 0px 10px;
+}
+
+.second {
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.third {
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mid-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width:450px) {
+    .first-set {
+        flex-direction: column;
+    }
+}
